@@ -1,0 +1,9 @@
+# 1. Write a function to compute 5/0 and use try/except to catch the exceptions.
+
+def x():
+    return 5/0
+
+try:
+    x()
+except:
+    print ("Error dividing by zero!")
